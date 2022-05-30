@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit ,OnDestroy{
       this.router.navigate(['/interpreterbooking'])
     }
     else{
-      this.router.navigate(['/profile'],{state:{int:interpreter}});
+      this.router.navigate(['/login']);
     }
     this.userService.user(interpreter);
   }
