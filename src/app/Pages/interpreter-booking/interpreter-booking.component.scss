@@ -1,0 +1,148 @@
+// .cards .btn {
+//   color: white;
+//   text-align: center;
+//   font-size: 36px;
+//   font-family: "Sansita";
+//   position: absolute;
+// }
+// .cards {
+//   background-color: #b7bbc2;
+//   width: 334px;
+//   height: 120px;
+//   text-decoration-color: white;
+//   border-radius: 8px;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// @media (max-width: 480px) {
+//   .cards {
+//     background-color: #b7bbc2;
+//     width: 100px;
+//     height: 60px;
+//     text-decoration-color: white;
+
+//     .btn {
+//       font-size: 16px;
+//     }
+
+//   .table {
+//     overflow-x: auto;
+//     min-width: 100px;
+//   }
+// }
+
+// .green {
+//   background: #29a9af !important;
+// }
+
+// .grey {
+//   background: #b7bbc2 !important;
+// }
+
+// //stream action button on the table
+// #join {
+//   background-color: #29a9af;
+//   transform: translateX(0rem);
+// }
+
+// //booking action, one of button on the table
+// #decline {
+//   transform: translateX(-5rem);
+ 
+// }
+// #accept{
+//     background-color: #29a9af;
+//     transform: translateX(-3rem);  
+// }
+
+// @media (max-width: 480px) {
+//   #join {
+//     background-color: #29a9af;
+//     transform: translateX(0rem);
+//     margin-bottom: 1rem;
+//   }
+//   #decline {
+//     transform: translateX(0rem);
+//   }
+
+//   #accept{
+//     background-color: #29a9af;
+//     transform: translateX(0rem);
+//     margin-bottom: 1rem; 
+// }
+
+// }
+
+// }
+
+
+.cards .btn{
+    
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Sansita';
+  position: absolute;
+
+}
+
+.cards{
+  background-color: #B7BBC2; 
+  width: 334px ; 
+  height: 120px; 
+  text-decoration-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+
+
+@media (max-width: 480px) {
+  .cards {
+      background-color: #B7BBC2; 
+      width: 100px ; 
+      height: 60px; 
+      text-decoration-color: white;
+
+      .btn{
+          font-size: 16px;
+      }   
+  }
+ 
+}
+
+.buttons{
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  width: 334px ; height: 120px; 
+}
+.green {
+  background-color: #2373a1; 
+  
+}
+
+.grey {
+  background-color: #B7BBC2;
+}
+
+#join {
+  background-color: #2373a1;
+  transform: translateX(0rem);
+}
+
+@media (max-width: 480px) {
+  #join {
+    background-color: #2373a1;
+    transform: translateX(0rem);
+    margin-bottom: 1rem;
+  }
+
+}

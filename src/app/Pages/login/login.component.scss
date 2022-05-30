@@ -1,0 +1,39 @@
+.text{
+    width: 137px;
+    height: 58px;
+  
+}
+
+#loginContainer{
+    height: 100%;
+}
+
+#submit{
+    background-color: #29A9AF;
+   
+}
+
+.form-control{
+    background-color: #cecece;
+}
+
+::placeholder{
+    color: solid black;
+}
+
+a {
+    color: #29A9AF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:540px){
+    .border-start{
+     border: none !important;
+    }
+  }
