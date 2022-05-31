@@ -16,7 +16,7 @@
                                 <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email" formControlName="email" required>
                             </div>
                          <div *ngIf="(email?.dirty || email?.touched) && email?.errors" class="errors">
-                            <span *ngIf="email?.errors" class="text_color">Email is required, </span>
+                            <span *ngIf="email?.errors" class="text_color">Email is required</span>
                             <span *ngIf="email?.errors?.email" class="text_color">email is invalid</span>  
                         </div>
                     </div>
